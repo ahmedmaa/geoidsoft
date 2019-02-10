@@ -19,19 +19,14 @@
 %                          Jan 2019
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-function [Pnn,wgf, lsf] = lgpoly(t,L)
-% t is the cos(theta)
-% m is the maximum degree
-%  is the coefficients from degree 0 up to m
-% load c.mat
-% L=200;
-Pnn=zeros(L+1,length(t));
+function [P,wgf, lsf] = lgpoly(t,L)
+P=zeros(L+1,length(t));
 wgf=zeros(L+1,1);
 lsf=zeros(L+1,1);
-Pnn(1,1:length(t)) = 1;    
-Pnn(2,1:length(t)) = t; 
-for n = 2:L 
-    Pnn(n+1,:) = -(n-1)./n.*Pnn(n-1)+(2.*n-1)./n.*t.*Pnn(n);
-    wgf(n+1,1) = (2.*n+1)./(n-1);
-    lsf(n+1,1) = (2.*n+1)./2;
+P(1,1:length(t)) = 1;    
+P(2,1:length(t)) = t; 
+for i = 2:L 
+    P(i+1,:) = -(i-1)./i.*P(i-1)+(2.*i-1)./i.*t.*P(i);
+    wgf(i+1,1) = (2.*i+1)./(i-1);
+    lsf(i+1,1) = (2.*i+1)./2;
 end
