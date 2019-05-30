@@ -1,4 +1,4 @@
-# GEOWARE
+# Geoid software
 These codes are used for the determination of high-frequency geoid model from the terrestrial gravity data. 
 With GEOWARE you can use the following kernels:\
  1- Original Stokes\
