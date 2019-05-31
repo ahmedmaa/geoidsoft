@@ -18,7 +18,8 @@
 %
 %                            Ahmed Abdalla
 %                     Louisiana State University
-%                          September 2017
+%                              May 2019
+%
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 function [NW] = StkWLS(fm,lm,dfi,dlam,c,R,ng,L,Sn)
