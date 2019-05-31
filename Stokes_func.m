@@ -14,7 +14,7 @@
 %
 %                            Ahmed Abdalla
 %                     Louisiana State University
-%                          September 2017
+%                              May 2019
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 function [N1] =Stokes_func(fm,lm,dfi,dlam,c,R,ng)
