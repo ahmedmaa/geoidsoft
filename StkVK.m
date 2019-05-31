@@ -17,7 +17,7 @@
 %
 %                            Ahmed Abdalla
 %                     Louisiana State University
-%                          September 2017
+%                              May 2019
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 function [NVK] = StkVK(fm,lm,dfi,dlam,c,R,ng,L,tk)
