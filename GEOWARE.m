@@ -1,23 +1,20 @@
 %**************************************************************************
-%***********************       GEOWARE V.1.1       ************************
+%****************************** Geoid Software ****************************
 %**************************************************************************
 %
 % This program script uses Stokes's Kernel to evaluate the terrestrial
 % gravity measurements and then uses Stokeks kernel to compute the geoid
 % model
 %
-%                             Ahmed Abdalla
-%                          Assistant Professor
-%                         University of Khartoum
-%                   Department of Surveying Engineering
-%                       P.O Box 321, Khartoum, Sudan                   
-%                          ahmed.abdalla@uofk.edu
+%                                Ahmed Abdalla
+%                        Assistant Professor Research
+%                         Louisiana State University
+%                          Center for Geoinformatics
+%                             aabdalla1@lsu.edu
+%                          
 %
-% Currntly working at: Louisiana State University, aabdalla1@lsu.edu
-% First version (1.0): Septemper 2017
-%       updated (1.1): January: 2019
-% This software is still under development, please contact me for any bug
-% or correction.
+%
+%
 %**************************************************************************
 %
 %    User's guide
