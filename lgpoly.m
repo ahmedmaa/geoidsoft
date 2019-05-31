@@ -16,7 +16,7 @@
 %
 %                            Ahmed Abdalla
 %                     Louisiana State University
-%                          Jan 2019
+%                              May 2019
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 function [P,wgf, lsf] = lgpoly(t,L)
