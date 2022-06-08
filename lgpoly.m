@@ -18,6 +18,9 @@
 %                     Louisiana State University
 %                              May 2019
 %
+%
+%       Last updated: June 2022
+%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 function [P,wgf, lsf] = lgpoly(t,L)
 P=zeros(L+1,length(t));
