@@ -19,6 +19,8 @@
 %                     Louisiana State University
 %                              May 2019
 %
+%       Last updated: June 2022
+%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 function [NVK] = StkVK(fm,lm,dfi,dlam,c,R,ng,L,tk)
 fi=c(:,2);
