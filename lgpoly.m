@@ -19,7 +19,7 @@
 %                              May 2019
 %
 %
-%       Last updated: June 2022
+%       Latest update: June 2022
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 function [P,wgf, lsf] = lgpoly(t,L)
