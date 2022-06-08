@@ -16,6 +16,9 @@
 %                     Louisiana State University
 %                              May 2019
 %
+%
+%       Last updated: June 2022
+%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 function [N1] =Stokes_func(fm,lm,dfi,dlam,c,R,ng)
 fi=c(:,2);
