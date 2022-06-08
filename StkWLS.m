@@ -21,6 +21,8 @@
 %                              May 2019
 %
 %
+%       Last updated: June 2022
+%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 function [NW] = StkWLS(fm,lm,dfi,dlam,c,R,ng,L,Sn)
 fi=c(:,2);
